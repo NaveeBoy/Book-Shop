@@ -345,7 +345,7 @@ section{
 
 .home{
    min-height: 70vh;
-   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/home_bg.jpg") no-repeat;
+   background: url(../images/backc.gif) no-repeat;
    background-size: cover;
    background-position: center;
    display: flex;
@@ -354,21 +354,26 @@ section{
 }
 
 .home .content{
+   padding-top: -60px;
    text-align: center;
-   width: 60rem;
+   width: 600rem;
 }
 
 .home .content h3{
-   font-size: 5.5rem;
+   font-size: 10.5rem;
    color:var(--white);
    text-transform: uppercase;
+   -webkit-text-stroke: #000000;
+   -webkit-text-stroke-width: 5px;
 }
 
 .home .content p{
-   font-size:1.8rem;
-   color:var(--light-white);
+   font-size:4.8rem;
+   color:var(--white);
    padding:1rem 0;
    line-height: 1.5;
+   -webkit-text-stroke: #000000;
+   -webkit-text-stroke-width: 1.5px;
 }
 
 .products .box-container{
@@ -385,10 +390,11 @@ section{
    border-radius: .5rem;
    background-color: var(--white);
    box-shadow: var(--box-shadow);
-   padding:2rem;
+   padding:5rem;
    text-align: center;
    border:var(--border);
    position: relative;
+   
 }
 
 .products .box-container .box .image{
@@ -860,14 +866,6 @@ section{
    border-radius: .5rem;
 }
 
-
-
-
-
-
-
-
- 
 
 .footer{
    background-color: var(--light-bg);
